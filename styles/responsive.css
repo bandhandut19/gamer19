@@ -73,11 +73,16 @@
     }
     .image-2 {
         position: absolute;
-        transform: translate(-35%,180%)
+        transform: translate(35%,180%)
     }
     .feature-text-2{
         text-align: center;
         margin-left: 0px;
+    }
+
+    .balancer, .btns-container{
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
     }
     
 
