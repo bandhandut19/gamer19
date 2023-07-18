@@ -7,7 +7,31 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #0B0223;
+    --btn-primary-color: #FF42A5;
+    --btn-secondary-color: #4EC5F7;
+    --seecondary-color: #FFF;
+}
 
+.btn-primary {
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--btn-primary-color);
+    color: var(--seecondary-color);
+    margin-top: 35px;
+}
+
+.btn-secondary {
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--btn-secondary-color);
+    color: var(--seecondary-color);
+}
 
 /* nav starts here */
 
@@ -16,23 +40,34 @@ header {
     border: 3px solid red;
     align-items: center;
     justify-content: center;
+    /* height: 100%; */
 }
 
 nav {
-    border: 2px solid blue;
+
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo {
     display: flex;
     gap: 10px;
 }
-.logo span{
+
+.logo span {
     color: #FF42A5;
 }
+
+.banner-text p {
+    background-image: linear-gradient(to bottom, #8758F1, var(--btn-primary-color));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .logo img {
     width: 66px;
     height: 30px;
@@ -60,3 +95,157 @@ nav {
 .fa-youtube {
     color: red;
 }
+
+/* nav ends here */
+
+
+/* banner starts here */
+
+.text-container {
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 150px;
+}
+
+.banner-text {
+    padding: 30px;
+    text-align: left;
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.banner-text p {
+    font-size: 96px;
+}
+
+.banner-text .btn-primary {
+    margin-right: 15px;
+}
+
+.banner-text li {
+    font-size: 20px;
+}
+
+.fa-solid {
+    margin: 10px 15px 15px 10px;
+    text-align: left;
+}
+
+.banner-img {
+    display: flex;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* banner ends here */
+
+/* main starts here */
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headline {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.headline span {
+    background-image: linear-gradient(to bottom, #8758F1, var(--btn-primary-color));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.videos-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.videos img {
+    width: 100%;
+}
+
+.videos p {
+    margin-top: 10px;
+
+}
+
+
+
+/* feature banner starts here */
+
+.feature-banners {
+    display: flex;
+    text-align: right;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.feature-banners>div {
+    width: 50%;
+}
+
+.feature-banner-text h1 {
+    font-size: 48px;
+}
+
+.feature-banner-text span {
+    color: var(--btn-primary-color);
+}
+
+.feature-banner-text p {
+    font-size: 20px;
+    text-align: right;
+}
+
+.feature-banner-image img {
+    width: 80%;
+}
+
+.floating-image {
+    position: absolute;
+    transform: translate(-10%,70%)
+}
+
+.floating-image img {
+    width: 30%;
+}
+
+.image-2{
+    transform: translate(-40%,90%);
+}
+
+.feature-text-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    text-align: left;
+}
+.feature-text-2 p{
+    text-align: left;
+}
+
+
+/* main ends here */
