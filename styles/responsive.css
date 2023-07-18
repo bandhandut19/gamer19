@@ -1,0 +1,15 @@
+/* nav starts here */
+@media screen and (max-width:576px){
+
+    nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .menus ul{
+        flex-direction: column;
+        
+    }
+    .menus ul :nth-child(3) {
+        margin-top: 20px;
+    }
+}

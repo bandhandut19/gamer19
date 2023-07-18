@@ -1,0 +1,62 @@
+/* globar setup */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+/* nav starts here */
+
+
+header {
+    border: 3px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo span{
+    color: #FF42A5;
+}
+.logo img {
+    width: 66px;
+    height: 30px;
+}
+
+.menus ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.menus ul :nth-child(3) {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 8px;
+}
+
+.menus ul :nth-child(3) i {
+    margin: 0px 3px;
+}
+
+.fa-youtube {
+    color: red;
+}
