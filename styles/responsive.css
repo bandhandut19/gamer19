@@ -24,12 +24,10 @@
     }
 
     .text-container {
-        border: 3px solid red;
         background-position: bottom left;
     }
 
     .banner-text {
-        border: 2px solid red;
         padding: 2px;
     }
 
@@ -85,5 +83,22 @@
         width: 100%;
     }
     
+    /* footer starts here */
+
+    .social-links{
+        flex-wrap: wrap;
+    }
+    .footer-nav ul{
+        grid-template-columns: repeat(3,1fr);
+        font-size: 18px;
+    }
+    .social-links ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .terms ul{
+        grid-template-columns: repeat(2,1fr);
+        font-size: 13px;
+        row-gap: 10px;
+    }
 
 }
