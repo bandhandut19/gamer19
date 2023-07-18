@@ -159,12 +159,21 @@ main {
     margin: 0 auto;
 }
 
+/* feature video starts here */
+
 .headline {
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+.headline h1{
+    font-size: 48px;
+}
+.headline p{
+    margin-top: 20px;
+    font-size: 20px;
+}
 .headline span {
     background-image: linear-gradient(to bottom, #8758F1, var(--btn-primary-color));
     -webkit-background-clip: text;
@@ -176,6 +185,10 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+}
+
+.videos{
+    
 }
 
 .videos img {
@@ -255,9 +268,9 @@ main {
 .option-buttons{
 
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    
+
 }
-.btns-conatiner{
+.btns-container{
     /* border: 2px solid red; */
     text-align: center;
     display: grid;
