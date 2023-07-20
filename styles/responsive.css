@@ -76,13 +76,13 @@
     .feature-banners {
         flex-direction: column;
     }
-
     .feature-banner-text h1 {
-        font-size: 38px;
+        font-size: 35px;
         text-align: center;
     }
 
     .feature-banner-text p {
+        margin-top: 15px;
         font-size: 15px;
         text-align: center;
     }
