@@ -1,9 +1,9 @@
 /* mobile res  here */
+.hide {
+    display: none;
+}
 @media screen and (max-width:576px) {
 
-    .hide{
-        display: none;
-    }
 
     /* nav starts here */
     nav {
@@ -17,8 +17,9 @@
 
     .menus ul {
         flex-direction: column;
-        
+
     }
+
     .menus ul :nth-child(3) {
         margin-top: 20px;
     }
@@ -37,55 +38,64 @@
         padding: 2px;
     }
 
-    .banner-text h1{
+    .banner-text h1 {
         font-size: 20px;
     }
-    .banner-text p{
+
+    .banner-text p {
         font-size: 55px;
     }
-    .banner-text li{
+
+    .banner-text li {
         font-size: 15px;
     }
-    .banner-text .btn-primary{
+
+    .banner-text .btn-primary {
         margin-right: 5px;
         margin-top: 5px;
     }
+
     /* main starts here */
 
     /* featured-videos section starts here */
 
-    .featured-videos .headline h1{
+    .featured-videos .headline h1 {
         text-align: center;
         font-size: 27px;
         width: 100%
     }
-    .featured-videos .headline p{
+
+    .featured-videos .headline p {
         font-size: 15px;
     }
+
     .videos-cards {
         grid-template-columns: 1fr;
         font-size: 14px;
         padding: 10px;
     }
-    
+
     .videos p {
         margin-top: 10px;
         text-align: center;
     }
-    .overlay i{
+
+    .overlay i {
         width: 50%;
         text-align: center;
-        
+
     }
-    .videos{
+
+    .videos {
         margin-top: 40px;
     }
 
     /* featured-banners section starts here */
     .feature-banners {
         flex-direction: column;
-        
+
     }
+
     .feature-banner-text h1 {
         font-size: 35px;
         text-align: center;
@@ -109,10 +119,11 @@
         position: absolute;
         transform: translate(-65%, 170%);
     }
-    .feature-banner-image{
+
+    .feature-banner-image {
         text-align: center;
     }
-    
+
     .image-2 {
         display: block;
         position: absolute;
@@ -134,36 +145,41 @@
     } */
 
 
-    .option-buttons{
+    .option-buttons {
         background-image: none;
         padding: 10px;
     }
-    .btns-container{
+
+    .btns-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
         gap: 40px;
         width: 100%;
         padding: 45px;
     }
-    .options{
+
+    .options {
         font-size: 5px;
         gap: 2px;
     }
-    .options-btn{
+
+    .options-btn {
         gap: 0px;
         font-size: 10px;
     }
+
     /* footer starts here */
 
 
-    footer .logo img{
+    footer .logo img {
         width: 30%;
         height: 30%;
         text-align: center;
     }
-    footer .logo h1{
+
+    footer .logo h1 {
         font-size: 25px;
     }
 
@@ -175,7 +191,7 @@
         grid-template-columns: repeat(3, 1fr);
         font-size: 15px;
         text-align: center;
-        
+
     }
 
     .social-links ul {
@@ -193,27 +209,55 @@
 
 }
 
-@media screen and (min-width:300px) {
+@media screen and (max-width:390px) {
 
     .floating-image {
         transform: translate(-70%, 200%);
     }
-    
-    .image-2 {
-    
-        transform: translate(0%, 200%);
 
+    .image-2 {
+        transform: translate(0%, 200%);
     }
 
 }
 
 /* Tablet Res here */
 
-@media screen and (min-width:576px) and (max-width: 992px){
-    .videos-cards{
-        grid-template-columns: repeat(2,1fr);
+@media screen and (min-width:576px) and (max-width: 992px) {
+
+    .banner-container{
+        flex-direction: column;
     }
-    .videos{
+    .banner-text{
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .videos-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .videos {
         margin-bottom: 50px;
     }
+ 
+    .feature-banner-text h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .image-main-2 img{
+        width: 120%;
+    }
+
+    .featured-videos{
+        border: 2px solid transparent;
+    }
+    .options button{
+        font-size: 18px;
+    }
+    .btns-container{
+
+        grid-template-columns: repeat(3,1fr);
+    }
+
 }
