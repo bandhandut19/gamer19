@@ -55,14 +55,17 @@
     /* featured-videos section starts here */
 
     .featured-videos .headline h1{
-        font-size: 40px;
+        text-align: center;
+        font-size: 27px;
+        width: 100%
     }
     .featured-videos .headline p{
-        font-size: 18px;
+        font-size: 15px;
     }
     .videos-cards {
         grid-template-columns: 1fr;
         font-size: 14px;
+        padding: 10px;
     }
     
     .videos p {
@@ -190,5 +193,18 @@
 
 }
 
+@media screen and (min-width:300px) {
+
+    .floating-image {
+        transform: translate(-70%, 180%);
+    }
+    
+    .image-2 {
+    
+        transform: translate(0%, 175%);
+
+    }
+
+}
 
 /* Tablet Res here */
