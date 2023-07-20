@@ -196,15 +196,24 @@
 @media screen and (min-width:300px) {
 
     .floating-image {
-        transform: translate(-70%, 180%);
+        transform: translate(-70%, 200%);
     }
     
     .image-2 {
     
-        transform: translate(0%, 175%);
+        transform: translate(0%, 200%);
 
     }
 
 }
 
 /* Tablet Res here */
+
+@media screen and (min-width:576px) and (max-width: 992px){
+    .videos-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .videos{
+        margin-bottom: 50px;
+    }
+}
