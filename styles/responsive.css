@@ -255,9 +255,25 @@
     .options button{
         font-size: 18px;
     }
+    .options .btn-primary{
+        padding: 2px;
+    }
     .btns-container{
-
+        column-gap: 10px;
+        row-gap: 25px;
+        width: 100%;
         grid-template-columns: repeat(3,1fr);
     }
-
+    .social-links ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-nav ul {
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    .terms ul{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        column-gap: 10px;
+    }
 }
