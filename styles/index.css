@@ -212,7 +212,7 @@ main {
     font-size: 40px;
 }
 .overlay h3{
-    color: #FFF;
+    color: var(--btn-primary-color);
     transform: translate(2%,58%);
     position: absolute;
     top: 0;
@@ -313,14 +313,24 @@ main {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
-.btns-container{
-    /* border: 2px solid red; */
+/* .btns-container{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     row-gap: 80px;
     justify-content: center;
     column-gap: 70px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 14px;
+} */
+
+.btns-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 80%;
     margin: 0 auto;
     padding: 50px;

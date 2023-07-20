@@ -150,24 +150,29 @@
         padding: 10px;
     }
 
-    .btns-container {
+    .btns-container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
+        column-gap: 10px;
+        row-gap: 25px;
         width: 100%;
-        padding: 45px;
+        grid-template-columns: repeat(3,1fr);
     }
 
     .options {
         font-size: 5px;
-        gap: 2px;
     }
 
+    .options img{
+        margin-right: 5px;
+    }
     .options-btn {
         gap: 0px;
         font-size: 10px;
+        padding: 0px;
+        text-align: left;
+    }
+    .options-btn:hover{
+        text-align: left;
     }
 
     /* footer starts here */
@@ -259,6 +264,7 @@
         padding: 2px;
     }
     .btns-container{
+        display: grid;
         column-gap: 10px;
         row-gap: 25px;
         width: 100%;
