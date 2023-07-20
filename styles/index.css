@@ -22,6 +22,7 @@
     background-color: var(--btn-primary-color);
     color: var(--seecondary-color);
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -31,6 +32,7 @@
     border: none;
     background-color: var(--btn-secondary-color);
     color: var(--seecondary-color);
+    cursor: pointer;
 }
 
 /* nav starts here */
@@ -66,6 +68,9 @@ nav {
     -webkit-background-clip: text;
     color: transparent;
 }
+.logo h1{
+    cursor: pointer;
+}
 
 .logo img {
     width: 66px;
@@ -78,6 +83,7 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    cursor: pointer;
 
 }
 
@@ -223,6 +229,7 @@ main {
 }
 .videos:hover .overlay{
     opacity: 1;
+    cursor: pointer;
 }
 .videos{
     position: relative;
@@ -350,8 +357,10 @@ main {
 .options-btn{
     display: flex;
     background-color: #FFFFFF;
-    gap: 5px;
+    gap: 25px;
     padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -365,6 +374,7 @@ main {
         border-radius: 35px;
         border: 2px solid var(--btn-primary-color);
         color: var(--btn-primary-color);
+        cursor: pointer;
 }
 
 .balancer{
