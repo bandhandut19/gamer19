@@ -2,6 +2,7 @@
 .hide {
     display: none;
 }
+
 @media screen and (max-width:576px) {
 
 
@@ -30,12 +31,15 @@
     }
 
     .text-container {
-        background-position: bottom left;
         background-image: none;
     }
 
     .banner-text {
+        /* background: url(../images/Group\ 14.png);
+        background-size: contain;
+        background-repeat: no-repeat; */
         display: flex;
+        position: relative;
         flex-direction: column;
         text-align: center;
         margin: 0 auto;
@@ -45,17 +49,19 @@
         justify-content: center;
         padding: 2px;
     }
-    .banner-text h1{
+
+    .banner-text h1 {
         text-align: left;
         margin: 0px 70px;
     }
-    .banner-text ul{
+
+    .banner-text ul {
         text-align: left;
         margin: 0px 60px;
-        width: 100%;
+        width: 80%;
     }
-    
-    .banner-btns{
+
+    .banner-btns {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -176,28 +182,30 @@
         padding: 10px;
     }
 
-    .btns-container{
+    .btns-container {
         display: grid;
         column-gap: 10px;
         row-gap: 25px;
         width: 100%;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .options {
         font-size: 5px;
     }
 
-    .options img{
+    .options img {
         margin-right: 5px;
     }
+
     .options-btn {
         gap: 0px;
         font-size: 10px;
         padding: 0px;
         text-align: left;
     }
-    .options-btn:hover{
+
+    .options-btn:hover {
         text-align: left;
     }
 
@@ -256,14 +264,16 @@
 
 @media screen and (min-width:576px) and (max-width: 992px) {
 
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .banner-text{
+
+    .banner-text {
         justify-content: center;
         align-items: center;
         margin-top: 10%;
     }
+
     .videos-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -271,40 +281,47 @@
     .videos {
         margin-bottom: 50px;
     }
- 
-    .feature-banner-text h1{
+
+    .feature-banner-text h1 {
         font-size: 35px;
         margin-bottom: 20px;
     }
-    .image-main-2 img{
+
+    .image-main-2 img {
         width: 120%;
     }
 
-    .featured-videos{
+    .featured-videos {
         border: 2px solid transparent;
     }
-    .options button{
+
+    .options button {
         font-size: 18px;
     }
-    .options .btn-primary{
+
+    .options .btn-primary {
         padding: 2px;
     }
-    .btns-container{
+
+    .btns-container {
         display: grid;
         column-gap: 10px;
         row-gap: 25px;
         width: 100%;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .social-links ul{
-        grid-template-columns: repeat(3,1fr);
+
+    .social-links ul {
+        grid-template-columns: repeat(3, 1fr);
     }
+
     .footer-nav ul {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
-    .terms ul{
-        grid-template-columns: repeat(2,1fr);
+
+    .terms ul {
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
         column-gap: 10px;
     }

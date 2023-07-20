@@ -15,7 +15,7 @@
 }
 
 .btn-primary {
-    padding: 15px 35px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 25px;
     border: none;
@@ -25,7 +25,7 @@
 }
 
 .btn-secondary {
-    padding: 15px 35px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 25px;
     border: none;
@@ -367,13 +367,6 @@ main {
         color: var(--btn-primary-color);
 }
 
-.btns-container:nth-child(6),
-.btns-container:nth-child(7),
-.btns-container:nth-child(8),
-.btns-container:nth-child(9){
-    margin-left: 30px;
-    color: #0B0223;
-}
 .balancer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -445,3 +438,25 @@ footer{
     font-size: 7px;
     color: rgba(255, 255, 255, 0.60);
 }
+
+/* all icons styling */
+
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: skyblue;
+}
+.fa-linkedin{
+    color: rgb(82, 82, 245);
+}
+.fa-square-instagram{
+    color: rgb(207, 102, 119);
+}
+.fa-play,.fa-circle-arrow-down{
+    color: var(--btn-primary-color);
+}
+.fa-user-group{
+    color: rgb(95, 185, 136);
+}
+
