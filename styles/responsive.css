@@ -260,10 +260,15 @@
 
 }
 
+
 /* Tablet Res here */
 
 @media screen and (min-width:576px) and (max-width: 992px) {
 
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
     .banner-container {
         flex-direction: column;
     }
@@ -287,6 +292,9 @@
         margin-bottom: 20px;
     }
 
+    .feature-banner-text P{
+        font-size: 16px;
+    }
     .image-main-2 img {
         width: 120%;
     }
