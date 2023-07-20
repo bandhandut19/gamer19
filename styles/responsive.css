@@ -1,7 +1,9 @@
 /* mobile res  here */
 @media screen and (max-width:576px) {
 
-
+    .hide{
+        display: none;
+    }
 
     /* nav starts here */
     nav {
@@ -9,14 +11,14 @@
         gap: 40px;
     }
 
-    .btn-primary{
+    .btn-primary {
         margin-bottom: 20px;
     }
+
     .menus ul {
         flex-direction: column;
-
+        
     }
-
     .menus ul :nth-child(3) {
         margin-top: 20px;
     }
@@ -28,81 +30,149 @@
 
     .text-container {
         background-position: bottom left;
+        background-image: none;
     }
 
     .banner-text {
         padding: 2px;
     }
 
-
-
-
+    .banner-text h1{
+        font-size: 20px;
+    }
+    .banner-text p{
+        font-size: 55px;
+    }
+    .banner-text li{
+        font-size: 15px;
+    }
+    .banner-text .btn-primary{
+        margin-right: 5px;
+        margin-top: 5px;
+    }
     /* main starts here */
 
     /* featured-videos section starts here */
-    .videos-cards{
+
+    .videos-cards {
         grid-template-columns: 1fr;
         font-size: 14px;
     }
-    .videos p{
+    
+    .videos p {
         margin-top: 10px;
         text-align: center;
     }
-    
+    .overlay i{
+        width: 50%;
+        text-align: center;
+        
+    }
+    .videos{
+        margin-top: 40px;
+    }
+
     /* featured-banners section starts here */
     .feature-banners {
         flex-direction: column;
-        text-align: center;
     }
+
     .feature-banner-text h1 {
         font-size: 38px;
+        text-align: center;
     }
+
     .feature-banner-text p {
         font-size: 15px;
         text-align: center;
     }
+
     .feature-banners>div {
         width: 100%;
     }
 
-    .feature-banner-2{
+    .feature-banner-2 {
         flex-direction: column-reverse;
     }
+
     .floating-image {
         position: absolute;
-        transform: translate(-35%,180%)
+        transform: translate(-60%, 170%)
     }
+    
     .image-2 {
         position: absolute;
-        transform: translate(35%,180%)
+        transform: translate(5%, 170%)
     }
-    .feature-text-2{
+
+    .feature-text-2 {
         text-align: center;
         margin-left: 0px;
     }
 
-    .balancer, .btns-container{
-        border: 2px solid red;
-        grid-template-columns: repeat(3,1fr);
-        padding: 50px;
+    /* .btns-container,.balancer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 100%;
+        padding: 5px;
+    } */
+
+
+    .option-buttons{
+        background-image: none;
+        padding: 10px;
     }
-    
+    .btns-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        padding: 45px;
+    }
+    .options{
+        font-size: 5px;
+        gap: 2px;
+    }
+    .options-btn{
+        gap: 0px;
+        font-size: 10px;
+    }
     /* footer starts here */
 
-    .social-links{
+
+    footer .logo img{
+        width: 30%;
+        height: 30%;
+        text-align: center;
+    }
+    footer .logo h1{
+        font-size: 25px;
+    }
+
+    .social-links {
         flex-wrap: wrap;
     }
-    .footer-nav ul{
-        grid-template-columns: repeat(3,1fr);
-        font-size: 18px;
+
+    .footer-nav ul {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
     }
-    .social-links ul{
-        grid-template-columns: repeat(3,1fr);
+
+    .social-links ul {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .terms ul{
-        grid-template-columns: repeat(2,1fr);
-        font-size: 13px;
+
+    .terms ul {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 10px;
         row-gap: 10px;
     }
 
+
 }
+
+
+/* Tablet Res here */
