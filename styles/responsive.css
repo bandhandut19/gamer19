@@ -54,6 +54,12 @@
 
     /* featured-videos section starts here */
 
+    .featured-videos .headline h1{
+        font-size: 40px;
+    }
+    .featured-videos .headline p{
+        font-size: 18px;
+    }
     .videos-cards {
         grid-template-columns: 1fr;
         font-size: 14px;
@@ -75,6 +81,7 @@
     /* featured-banners section starts here */
     .feature-banners {
         flex-direction: column;
+        
     }
     .feature-banner-text h1 {
         font-size: 35px;
@@ -82,7 +89,7 @@
     }
 
     .feature-banner-text p {
-        margin-top: 15px;
+        padding-top: 15px;
         font-size: 15px;
         text-align: center;
     }
@@ -97,12 +104,17 @@
 
     .floating-image {
         position: absolute;
-        transform: translate(-60%, 170%)
+        transform: translate(-65%, 170%);
+    }
+    .feature-banner-image{
+        text-align: center;
     }
     
     .image-2 {
+        display: block;
         position: absolute;
-        transform: translate(5%, 170%)
+        transform: translate(0%, 170%);
+        margin: 0;
     }
 
     .feature-text-2 {
@@ -160,6 +172,7 @@
         grid-template-columns: repeat(3, 1fr);
         font-size: 15px;
         text-align: center;
+        
     }
 
     .social-links ul {
@@ -169,8 +182,8 @@
 
     .terms ul {
         grid-template-columns: repeat(2, 1fr);
-        font-size: 10px;
-        row-gap: 10px;
+        font-size: 11px;
+        row-gap: 14px;
         text-align: center;
     }
 
